@@ -1,0 +1,91 @@
+body {
+  margin: 30px;
+  text-align: center;
+}
+
+a {
+  background-color: transparent;
+  display: block;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+svg {
+  margin: 22px 0 18px;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 6px;
+}
+
+#me {
+
+}
+
+#m90q0 {
+  width: 78%;
+}
+
+#twitter {
+  width: 60%;
+}
+
+#facebook {
+  width: 58%;
+}
+
+#google {
+  width: 60%;
+}
+
+#weibo {
+  width: 90%;
+}
+
+#github {
+  width: 60%;
+}
+
+#email {
+  width: 98%;
+}
+
+@media only screen and (min-width:650px) {
+
+  .container {
+    width: 610px;
+    margin: 0 auto;
+  }
+
+  #m90q0 {
+    width: 84%;
+  }
+
+  #me {
+    width: 50%;
+    float: left;
+  }
+
+  #weibo {
+    width: 100%;
+  }
+
+  .right {
+    width: 50%;
+    float: right;
+    margin-top: 42px;
+  }
+
+  a:hover svg {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 6px;
+  }
+
+
+
+}
