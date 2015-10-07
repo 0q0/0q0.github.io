@@ -15,15 +15,15 @@ var htmlOpt = {
 // HTML Task
 gulp.task('html', function() {
   
-  return gulp.src('index.html')
+  return gulp.src('dev/index.html')
     .pipe(minifyHTML(htmlOpt))
-    .pipe(gulp.dest('min'));
+    .pipe(gulp.dest('./'));
 
 });
 
 // Styles Task
 gulp.task('css', function() {
-    return gulp.src('dev.css')
+    return gulp.src('dev/dev.css')
         .pipe(minifyCss())
         .pipe(gulp.dest('min'));
 });
